@@ -1,0 +1,204 @@
+body {
+  font-family: "Hepta Slab", serif;
+}
+
+.socials {
+  width: fit-content;
+}
+
+.individual_social {
+  margin: 30px;
+  transition: 0.4s;
+}
+
+.individual_social:hover {
+  
+  padding: 20px;
+  border-radius: 5px;
+  background: rgb(241, 241, 241);
+}
+
+.title_link {
+  color: black;
+  transition: .4s;
+}
+
+.title_link:hover {
+  color: rgb(30, 154, 255);
+}
+
+.header {
+  width: fit-content;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  transition: .4s;
+}
+
+.header a:hover {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+.header h1 {
+  font-size: 80px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.callToAction {
+  width: fit-content;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.collegeValue {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  line-height: 2;
+}
+
+.collegeValue img {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.collegeValue h2 {
+  font-size: 40px;
+}
+
+.collegeValue p {
+  width: 35%;
+}
+
+.context {
+width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+  align-items: center;
+  align-content: center;
+  
+}
+
+.links {
+    margin-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.links a {
+    color:black;
+    margin: 20px;
+    transition: .4s;
+}
+
+.links a:hover {
+    color: rgb(30, 154, 255);
+}
+
+.collegeValue h4 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.paren {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+
+/* guidr ----------------------------------------- */
+
+.guidr {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  line-height: 2;
+}
+
+.guidr h4 {
+  font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.guidr img {
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.guidr h2 {
+font-size: 40px;
+}
+
+.guidr p {
+width: 35%;
+}
+
+/*  howto ----------------------------------------- */
+
+.howto {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  line-height: 2;
+}
+
+.howto h4 {
+  font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.howto img {
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.howto h2 {
+font-size: 40px;
+}
+
+.howto p {
+width: 35%;
+}

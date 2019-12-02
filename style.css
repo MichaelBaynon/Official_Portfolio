@@ -6,6 +6,8 @@ body {
   width: fit-content;
 }
 
+
+
 .individual_social {
   margin: 30px;
   transition: 0.4s;
@@ -16,6 +18,11 @@ body {
   padding: 20px;
   border-radius: 5px;
   background: rgb(241, 241, 241);
+}
+
+.mailIMG {
+  padding: -30px;
+ 
 }
 
 .title_link {
@@ -110,6 +117,8 @@ width: fit-content;
 }
 
 .links {
+ 
+  width: 40%;
     margin-top: 0px;
     margin: 0 auto;
     display: flex;
@@ -201,4 +210,57 @@ font-size: 40px;
 
 .howto p {
 width: 35%;
+}
+
+/* skills ------------------------------------ */
+
+.skills {
+
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1cm;
+border-bottom: 1px solid lightgrey;  
+}
+
+.skills h3 {
+  font-size: 30px;
+}
+
+.skills p {
+  margin-top: -10px;
+}
+
+/* bio ---------------------------------- */
+
+.bio h3 {
+  font-size: 30px;
+}
+
+.bio {
+/* border: solid red; */
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1cm;
+border-bottom: 1px solid lightgrey; 
+justify-content: center; 
+align-items: center;
+align-content: center;
+}
+
+/* outro -------------- */
+
+.outro {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1cm;
+border-bottom: 1px solid lightgrey; 
+justify-content: center; 
+align-items: center;
+align-content: center;
 }

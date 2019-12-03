@@ -443,4 +443,56 @@ padding: 20px;
       .outro {
         width: 70%;
       }
+      .header p {
+        font-size: 15px;
+      }
+      #drop-content p {
+        font-size: 16px;
+        background: rgb(241, 241, 241);
+        padding: 20px;
+        border-radius: 10px;
+        width: 70%;
+        
+        
+        }
+        
+        #drop-content {
+         transition: .4s;
+        padding: 20px;
+        width: 70%;
+        }
+        
+       
+        #howto-content p {
+          font-size: 16px;
+          background: rgb(241, 241, 241);
+          padding: 20px;
+          border-radius: 10px;
+          width: 70%;
+          
+          
+          }
+          
+          #howto-content {
+           transition: .4s;
+          padding: 20px;
+          width: 70%;
+          }
+        
+          #guidr-content p {
+            font-size: 16px;
+            background: rgb(241, 241, 241);
+            padding: 20px;
+            border-radius: 10px;
+            width: 70%;
+            
+            
+            }
+            
+            #guidr-content {
+             transition: .4s;
+            padding: 20px;
+            width: 70%;
+            }
+      
     }

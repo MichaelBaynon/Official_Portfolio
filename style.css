@@ -423,4 +423,24 @@ padding: 20px;
       .individual_social {
         margin: 12px;
       }
+      .socialIMG {
+        width: 80px;
+      }
+      .header h1 {
+        
+        font-size: 40px;
+      }
+      .mobileIMG {
+        width: 300px;
+        
+      }
+      .title_link h2 {
+        font-size: 25px;
+      }
+      .bio {
+        width: 70%;
+      }
+      .outro {
+        width: 70%;
+      }
     }

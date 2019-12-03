@@ -435,7 +435,7 @@ padding: 20px;
         
       }
       .title_link h2 {
-        font-size: 25px;
+        font-size: 15px;
       }
       .bio {
         width: 70%;
@@ -444,14 +444,14 @@ padding: 20px;
         width: 70%;
       }
       .header p {
-        font-size: 15px;
+        font-size: 18px;
       }
       #drop-content p {
         font-size: 16px;
         background: rgb(241, 241, 241);
         padding: 20px;
         border-radius: 10px;
-        width: 70%;
+        width: 90%;
         
         
         }
@@ -459,7 +459,7 @@ padding: 20px;
         #drop-content {
          transition: .4s;
         padding: 20px;
-        width: 70%;
+        width: 90%;
         }
         
        
@@ -468,7 +468,7 @@ padding: 20px;
           background: rgb(241, 241, 241);
           padding: 20px;
           border-radius: 10px;
-          width: 70%;
+          width: 90%;
           
           
           }
@@ -476,7 +476,7 @@ padding: 20px;
           #howto-content {
            transition: .4s;
           padding: 20px;
-          width: 70%;
+          width: 90%;
           }
         
           #guidr-content p {
@@ -484,7 +484,7 @@ padding: 20px;
             background: rgb(241, 241, 241);
             padding: 20px;
             border-radius: 10px;
-            width: 70%;
+            width: 90%;
             
             
             }
@@ -492,7 +492,7 @@ padding: 20px;
             #guidr-content {
              transition: .4s;
             padding: 20px;
-            width: 70%;
+            width: 90%;
             }
       
     }

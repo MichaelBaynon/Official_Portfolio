@@ -28,8 +28,8 @@
       </div>
       <div class="individual_social">
         <a class="email" href="mailto:baynonmichael@gmail.com"
-          ><img class="mailIMG" src="/imgs/email.png"   width="75"></a
-        >
+          ><img class="mailIMG" src="/imgs/email.png" width="75"
+        /></a>
       </div>
     </div>
     <div class="header">
@@ -46,27 +46,50 @@
       >
 
       <a href="https://collegevalue.netlify.com/" target="_">
-        <img src="./imgs/collegeValue.png" width="700" />
+        <img class="mobileIMG" src="./imgs/collegeValue.png" width="700" />
       </a>
-      <h4>Personal Contribution</h4>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; As a preface to the rest of my projects most of
-        these projects were made in no more then a week by me and a group of
-        others. That being said any small bugs or mistypes/errors are to be
-        expected.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; <b>College Value</b> is definitely the project
-        as of now that I take most pride in. College Value was built using React
-        on the Front End and we connected to a Java Back End made by one of my
-        fellow students.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the styling
-        and functionality of the Navigation Bar, Sign Up, Sign In, Sign Out, and
-        much more. In this project I demonstrate my understanding of protected
-        routes, authentication, and the Front End proccess.
-      </p>
+      <center>
+        <div class="dropdown">
+          <button onclick="show_hide()" class="dropdown_button">
+           View Personal Contribution
+            
+          </button>
+          <div style="display: none;" id="drop-content">
+            
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp; As a preface to the rest of my projects most of
+                these projects were made in no more then a week by me and a group of
+                others. That being said any small bugs or mistypes/errors are to be
+                expected.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp; <b>College Value</b> is definitely the project
+                as of now that I take most pride in. College Value was built using React
+                on the Front End and we connected to a Java Back End made by one of my
+                fellow students.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the styling
+                and functionality of the Navigation Bar, Sign Up, Sign In, Sign Out, and
+                much more. In this project I demonstrate my understanding of protected
+                routes, authentication, and the Front End proccess.
+              </p>
+            
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_hide() {
+          var click = document.getElementById("drop-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+
+      
     </div>
     <div class="context">
       <p>
@@ -93,29 +116,52 @@
       >
 
       <a href="https://howto-lsbw.netlify.com/" target="_">
-        <img src="./imgs/howto.png" width="700" />
+        <img  class="mobileIMG"  src="./imgs/howto.png" width="700" />
       </a>
-      <h4>Personal Contribution</h4>
 
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; <b>How To - life hacks</b> is also a project I
-        take good pride in. Mostly because I built an entire nodeJS backend
-        entirely by myself and from scratch. Of course this project posed
-        challenges of its own but this project has proven to be one of if not my
-        best learning experience so far.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the entire
-        backend. So I made endpoints for logging in, logging out and creating
-        posts, as well as a couple other smaller things which can be found on
-        the site found below.
-      </p>
+      <center>
+        <div class="dropdown">
+          <button onclick="show_howto()" class="dropdown_button">
+           View Personal Contribution
+            
+          </button>
+          <div style="display: none;" id="howto-content">
+            
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; <b>How To - life hacks</b> is also a project I
+              take good pride in. Mostly because I built an entire nodeJS backend
+              entirely by myself and from scratch. Of course this project posed
+              challenges of its own but this project has proven to be one of if not my
+              best learning experience so far.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the entire
+              backend. So I made endpoints for logging in, logging out and creating
+              posts, as well as a couple other smaller things which can be found on
+              the site found below.
+            </p>
+            
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_howto() {
+          var click = document.getElementById("howto-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+
+      
     </div>
     <div class="context">
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
       </p>
-      <p class="paren">Site managed and hosted by me</p>
+      
     </div>
     <div class="links">
       <a href="https://github.com/bw-howto/backend" target="_blank"
@@ -132,31 +178,54 @@
       >
 
       <a href="https://loveguidr.netlify.com/" target="_">
-        <img src="./imgs/guidr.jpg" width="700" />
+        <img  class="mobileIMG"  src="./imgs/guidr.jpg" width="700" />
       </a>
-      <h4>Personal Contribution</h4>
 
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; <b>Guidr</b> is one of those projects that I am
-        a little less excited to show only because we had a lot of team members
-        so I wouldn't want you to receive the wrong impression of my code.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; My specific code in my branch is linked below
-        so you can always check there for specifics. In general I contributed to
-        this project with styling, login and signup functionality, and more.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp; The three specifics things I wanted to
-        highlight were that one this idea was very new so new ideas were
-        essential and I was involved in the beginning discussion of what this
-        app could be. Two we had no one available to do the UI/UX so me and one
-        other team member stepped up and spent late nights writing code and then
-        completing the UI/UX needs. Finally three, probaly most important,
-        teamwork. At that current time I had never worked with a group that
-        large which was a fun and interesting challenge which I feel I handled
-        very well.
-      </p>
+      <center>
+        <div class="dropdown">
+          <button onclick="show_guidr()" class="dropdown_button">
+           View Personal Contribution
+            
+          </button>
+          <div style="display: none;" id="guidr-content">
+            
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; <b>Guidr</b> is one of those projects that I am
+              a little less excited to show only because we had a lot of team members
+              so I wouldn't want you to receive the wrong impression of my code.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; My specific code in my branch is linked below
+              so you can always check there for specifics. In general I contributed to
+              this project with styling, login and signup functionality, and more.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; The three specifics things I wanted to
+              highlight were that one this idea was very new so new ideas were
+              essential and I was involved in the beginning discussion of what this
+              app could be. Two we had no one available to do the UI/UX so me and one
+              other team member stepped up and spent late nights writing code and then
+              completing the UI/UX needs. Finally three, probaly most important,
+              teamwork. At that current time I had never worked with a group that
+              large which was a fun and interesting challenge which I feel I handled
+              very well.
+            </p>
+            
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_guidr() {
+          var click = document.getElementById("guidr-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+
+     
     </div>
     <div class="context">
       <p>
@@ -230,14 +299,19 @@
       </p>
     </div>
     <div class="outro">
-<h3>Outro</h3>
-<p>&nbsp;&nbsp;&nbsp;&nbspWell here we are. Not much more reading I promise. I can promise you one thing you will not find someone with as much ambition as me. 
-  </p>
-  <p> &nbsp;&nbsp;&nbsp;&nbspSo you are hooked? I know so just email me here 
-  
-  </p>
-  <a class="email" href="mailto:baynonmichael@gmail.com">baynonmichael@gmail.com</a>
-  <p>Thank you for reading and considering me.</p>
+      <h3>Outro</h3>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbspWell here we are. Not much more reading I
+        promise. I can promise you one thing you will not find someone with as
+        much ambition as me.
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbspSo you are hooked? I know so just email me here
+      </p>
+      <a class="email" href="mailto:baynonmichael@gmail.com"
+        >baynonmichael@gmail.com</a
+      >
+      <p>Thank you for reading and considering me.</p>
     </div>
   </body>
 </html>

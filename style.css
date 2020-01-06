@@ -299,6 +299,34 @@ background: rgb(209, 209, 209);
 
 }
 
+#ebcg-content p {
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+  }
+  
+  #ebcg-content {
+   transition: .4s;
+  padding: 20px;
+  }
+
+#shopbti-content p {
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+  }
+  
+  #shopbti-content {
+   transition: .4s;
+  padding: 20px;
+  }
+
 #drop-content p {
 font-size: 16px;
 background: rgb(241, 241, 241);

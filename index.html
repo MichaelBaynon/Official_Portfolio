@@ -40,6 +40,120 @@
       <h2>Checkout some of my work below</h2>
       <img src="./imgs/chevron-down-solid.svg" width="60" />
     </div>
+    <!-- /////////////////////////////////////////////// -->
+    <div class="collegeValue">
+      <a class="title_link" href="https://ebcg.netlify.com/" target="_"
+        ><h2>EBCG</h2></a
+      >
+
+      <a href="https://ebcg.netlify.com/" target="_">
+        <img class="mobileIMG" src="./imgs/EBCG_SC.png" width="700" />
+      </a>
+      <center>
+        <div class="dropdown">
+          <button onclick="show_ebcg()" class="dropdown_button">
+            View Personal Contribution
+          </button>
+          <div style="display: none;" id="ebcg-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; This project was done using ReactJS, and vanilla CSS. This project was done for an insurance consulting company it was basically a modern touch up of their older site from the early 2000s.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; Working on the <b>EBCG </b> website was very fun because I had complete creative freedom and I actaully had the opportunity to do some photo editing and UI/UX.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; During this project I showed my understanding of the Front End proccess, my ability to work directly with a client, and my on the spot creativity. 
+            </p>
+           
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_ebcg() {
+          var click = document.getElementById("ebcg-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+    </div>
+    <div class="context">
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
+      </p>
+      <p class="paren">Site managed and hosted by me</p>
+    </div>
+    <div class="links">
+      <a
+        href="https://github.com/MichaelBaynon/ebcg"
+        target="_blank"
+        >GitHub Code</a
+      >
+      <a href="https://ebcg.netlify.com/" target="_blank"
+        >Live Website</a
+      >
+    </div>
+
+    <!-- ///////////////////////////////////////////////// -->
+
+    <div class="collegeValue">
+      <a class="title_link" href="https://shopbti.netlify.com/" target="_"
+        ><h2>SHOPBTI</h2></a
+      >
+
+      <a href="https://shopbti.netlify.com/" target="_">
+        <img class="mobileIMG" src="./imgs/shopbti_SC.png" width="700" />
+      </a>
+      <center>
+        <div class="dropdown">
+          <button onclick="show_SHOPBTI()" class="dropdown_button">
+            View Personal Contribution
+          </button>
+          <div style="display: none;" id="shopbti-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; Similiar to the EBCG project the website for SHOPBTI was done using ReactJS. This is a technology company and therefore demanded a little more finesse. 
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; I made this site mobile first and then came in at the end adding some desktop styling and unique features. Similiar to the EBCG project I also had a lot of creative freedom here besides the text so the design was made entirely by me.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; During this project I demonstrated my ability to make cross platform applications that are responsive and functional. I used React Router to route between specific pages making the tranisitions virtually seamless.
+            </p>
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_SHOPBTI() {
+          var click = document.getElementById("shopbti-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+    </div>
+    <div class="context">
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
+      </p>
+      <p class="paren">Site managed and hosted by me</p>
+    </div>
+    <div class="links">
+      <a
+        href="https://github.com/MichaelBaynon/shopbti-landing-page"
+        target="_blank"
+        >GitHub Code</a
+      >
+      <a href="https://shopbti.netlify.com/" target="_blank"
+        >Live Website</a
+      >
+    </div>
+
+    <!-- //////////////////////////////////////////////// -->
+
     <div class="collegeValue">
       <a class="title_link" href="https://collegevalue.netlify.com/" target="_"
         ><h2>College Value Predictor</h2></a
@@ -51,30 +165,27 @@
       <center>
         <div class="dropdown">
           <button onclick="show_hide()" class="dropdown_button">
-           View Personal Contribution
-            
+            View Personal Contribution
           </button>
           <div style="display: none;" id="drop-content">
-            
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp; As a preface to the rest of my projects most of
-                these projects were made in no more then a week by me and a group of
-                others. That being said any small bugs or mistypes/errors are to be
-                expected.
-              </p>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp; <b>College Value</b> is definitely the project
-                as of now that I take most pride in. College Value was built using React
-                on the Front End and we connected to a Java Back End made by one of my
-                fellow students.
-              </p>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the styling
-                and functionality of the Navigation Bar, Sign Up, Sign In, Sign Out, and
-                much more. In this project I demonstrate my understanding of protected
-                routes, authentication, and the Front End proccess.
-              </p>
-            
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; As a preface to the rest of my projects
+              most of these projects were made in no more then a week by me and
+              a group of others. That being said any small bugs or
+              mistypes/errors are to be expected.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; College Value was
+              built using React on the Front End and we connected to a Java Back
+              End made by one of my fellow colleagues.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the
+              styling and functionality of the Navigation Bar, Sign Up, Sign In,
+              Sign Out, and much more. In this project I demonstrate my
+              understanding of protected routes, authentication, and the Front
+              End proccess.
+            </p>
           </div>
         </div>
       </center>
@@ -88,8 +199,6 @@
           }
         }
       </script>
-
-      
     </div>
     <div class="context">
       <p>
@@ -116,31 +225,28 @@
       >
 
       <a href="https://howto-lsbw.netlify.com/" target="_">
-        <img  class="mobileIMG"  src="./imgs/howto.png" width="700" />
+        <img class="mobileIMG" src="./imgs/howto.png" width="700" />
       </a>
 
       <center>
         <div class="dropdown">
           <button onclick="show_howto()" class="dropdown_button">
-           View Personal Contribution
-            
+            View Personal Contribution
           </button>
           <div style="display: none;" id="howto-content">
-            
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; <b>How To - life hacks</b> is also a project I
-              take good pride in. Mostly because I built an entire nodeJS backend
-              entirely by myself and from scratch. Of course this project posed
-              challenges of its own but this project has proven to be one of if not my
-              best learning experience so far.
+              &nbsp;&nbsp;&nbsp;&nbsp; <b>How To - life hacks</b> is also a
+              project I take good pride in. Mostly because I built an entire
+              nodeJS backend entirely by myself and from scratch. Of course this
+              project posed challenges of its own but this project has proven to
+              be one of if not my best learning experience so far.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the entire
-              backend. So I made endpoints for logging in, logging out and creating
-              posts, as well as a couple other smaller things which can be found on
-              the site found below.
+              &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the
+              entire backend. So I made endpoints for logging in, logging out
+              and creating posts, as well as a couple other smaller things which
+              can be found on the site found below.
             </p>
-            
           </div>
         </div>
       </center>
@@ -154,14 +260,11 @@
           }
         }
       </script>
-
-      
     </div>
     <div class="context">
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
       </p>
-      
     </div>
     <div class="links">
       <a href="https://github.com/bw-howto/backend" target="_blank"
@@ -178,39 +281,38 @@
       >
 
       <a href="https://loveguidr.netlify.com/" target="_">
-        <img  class="mobileIMG"  src="./imgs/guidr.jpg" width="700" />
+        <img class="mobileIMG" src="./imgs/guidr.jpg" width="700" />
       </a>
 
       <center>
         <div class="dropdown">
           <button onclick="show_guidr()" class="dropdown_button">
-           View Personal Contribution
-            
+            View Personal Contribution
           </button>
           <div style="display: none;" id="guidr-content">
-            
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; <b>Guidr</b> is one of those projects that I am
-              a little less excited to show only because we had a lot of team members
-              so I wouldn't want you to receive the wrong impression of my code.
+              &nbsp;&nbsp;&nbsp;&nbsp; <b>Guidr</b> is one of those projects
+              that I am a little less excited to show only because we had a lot
+              of team members so I wouldn't want you to receive the wrong
+              impression of my code.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; My specific code in my branch is linked below
-              so you can always check there for specifics. In general I contributed to
-              this project with styling, login and signup functionality, and more.
+              &nbsp;&nbsp;&nbsp;&nbsp; My specific code in my branch is linked
+              below so you can always check there for specifics. In general I
+              contributed to this project with styling, login and signup
+              functionality, and more.
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp; The three specifics things I wanted to
               highlight were that one this idea was very new so new ideas were
-              essential and I was involved in the beginning discussion of what this
-              app could be. Two we had no one available to do the UI/UX so me and one
-              other team member stepped up and spent late nights writing code and then
-              completing the UI/UX needs. Finally three, probaly most important,
-              teamwork. At that current time I had never worked with a group that
-              large which was a fun and interesting challenge which I feel I handled
-              very well.
+              essential and I was involved in the beginning discussion of what
+              this app could be. Two we had no one available to do the UI/UX so
+              me and one other team member stepped up and spent late nights
+              writing code and then completing the UI/UX needs. Finally three,
+              probaly most important, teamwork. At that current time I had never
+              worked with a group that large which was a fun and interesting
+              challenge which I feel I handled very well.
             </p>
-            
           </div>
         </div>
       </center>
@@ -224,8 +326,6 @@
           }
         }
       </script>
-
-     
     </div>
     <div class="context">
       <p>

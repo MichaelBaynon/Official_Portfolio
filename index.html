@@ -12,39 +12,57 @@
     />
   </head>
   <body>
-    <div class="socials">
-      <div class="individual_social">
-        <a href="https://github.com/MichaelBaynon" target="_blank">
-          <img src="./imgs/GitHub_Logo.png" width="150" />
-        </a>
-      </div>
-      <div class="individual_social">
-        <a
-          href="https://www.linkedin.com/in/michael-baynon-64592918a"
-          target="_blank"
-        >
-          <img class="socialIMG" src="./imgs/LinkedIN.png" width="150" />
-        </a>
-      </div>
-      <div class="individual_social">
-        <a class="email" href="mailto:baynonmichael@gmail.com"
-          ><img class="mailIMG" src="/imgs/email.png" width="75"
-        /></a>
-      </div>
+    <div class="nav">
+      <a href="#header">Contact</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#aboutme">About</a>
+      
     </div>
-    <div class="header">
+    <div class="header" id=header>
       <a href="https://github.com/MichaelBaynon"> <h1>Michael Baynon</h1> </a>
-      <p>Software Engineer</p>
+      <div class="call-to-action1">
+        <p>Software Engineer</p>
+        <div class="socials">
+          <div class="individual_social">
+            <a href="https://github.com/MichaelBaynon" target="_blank">
+              <img src="./imgs/GitHub_Logo.png" width="100" />
+            </a>
+          </div>
+          <div class="individual_social">
+            <a
+              href="https://www.linkedin.com/in/michael-baynon-64592918a"
+              target="_blank"
+            >
+              <img class="socialIMG" src="./imgs/LinkedIN.png" width="100" />
+            </a>
+          </div>
+          <div class="individual_social">
+            <a class="email" href="mailto:baynonmichael@gmail.com"
+              ><img class="mailIMG" src="/imgs/email.png" width="50"
+            /></a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="callToAction">
       <h2>Checkout some of my work below</h2>
-      <img src="./imgs/chevron-down-solid.svg" width="60" />
+      <a href="#projects"><img src="./imgs/chevron-down-solid.svg" width="60" /></a>
+      
     </div>
     <!-- /////////////////////////////////////////////// -->
-    <div class="collegeValue">
-      <a class="title_link" href="https://ebcg.netlify.com/" target="_"
-        ><h2>EBCG</h2></a
-      >
+    <div class="collegeValue" id=projects>
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://ebcg.netlify.com/" target="_"
+          ><h2>EBCG: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/MichaelBaynon/ebcg" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://ebcg.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
 
       <a href="https://ebcg.netlify.com/" target="_">
         <img class="mobileIMG" src="./imgs/EBCG_SC.png" width="700" />
@@ -52,19 +70,25 @@
       <center>
         <div class="dropdown">
           <button onclick="show_ebcg()" class="dropdown_button">
-            View Personal Contribution
+            Click to see how I contributed
           </button>
           <div style="display: none;" id="ebcg-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; This project was done using ReactJS, and vanilla CSS. This project was done for an insurance consulting company it was basically a modern touch up of their older site from the early 2000s.
+              &nbsp;&nbsp;&nbsp;&nbsp; This project was done using ReactJS, and
+              vanilla CSS. This project was done for an insurance consulting
+              company it was basically a modern touch up of their older site
+              from the early 2000s.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; Working on the <b>EBCG </b> website was very fun because I had complete creative freedom and I actaully had the opportunity to do some photo editing and UI/UX.
+              &nbsp;&nbsp;&nbsp;&nbsp; Working on the <b>EBCG </b> website was
+              very fun because I had complete creative freedom and I actaully
+              had the opportunity to do some photo editing and UI/UX.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; During this project I showed my understanding of the Front End proccess, my ability to work directly with a client, and my on the spot creativity. 
+              &nbsp;&nbsp;&nbsp;&nbsp; During this project I showed my
+              understanding of the Front End proccess, my ability to work
+              directly with a client, and my on the spot creativity.
             </p>
-           
           </div>
         </div>
       </center>
@@ -76,50 +100,51 @@
           } else {
             click.style.display = "none";
           }
+          
         }
       </script>
     </div>
-    <div class="context">
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
-      </p>
-      <p class="paren">Site managed and hosted by me</p>
-    </div>
-    <div class="links">
-      <a
-        href="https://github.com/MichaelBaynon/ebcg"
-        target="_blank"
-        >GitHub Code</a
-      >
-      <a href="https://ebcg.netlify.com/" target="_blank"
-        >Live Website</a
-      >
-    </div>
-
+    
     <!-- ///////////////////////////////////////////////// -->
 
     <div class="collegeValue">
-      <a class="title_link" href="https://shopbti.netlify.com/" target="_"
-        ><h2>SHOPBTI</h2></a
-      >
-
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://shopbti.netlify.com/" target="_"
+          ><h2>SHOPBTI: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/MichaelBaynon/shopbti-landing-page" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://shopbti.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
       <a href="https://shopbti.netlify.com/" target="_">
         <img class="mobileIMG" src="./imgs/shopbti_SC.png" width="700" />
       </a>
       <center>
         <div class="dropdown">
           <button onclick="show_SHOPBTI()" class="dropdown_button">
-            View Personal Contribution
+            Click to see how I contributed
           </button>
           <div style="display: none;" id="shopbti-content">
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; Similiar to the EBCG project the website for SHOPBTI was done using ReactJS. This is a technology company and therefore demanded a little more finesse. 
+              &nbsp;&nbsp;&nbsp;&nbsp; Similiar to the EBCG project the website
+              for SHOPBTI was done using ReactJS. This is a technology company
+              and therefore demanded a little more finesse.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; I made this site mobile first and then came in at the end adding some desktop styling and unique features. Similiar to the EBCG project I also had a lot of creative freedom here besides the text so the design was made entirely by me.
+              &nbsp;&nbsp;&nbsp;&nbsp; I made this site mobile first and then
+              came in at the end adding some desktop styling and unique
+              features. Similiar to the EBCG project I also had a lot of
+              creative freedom here besides the text so the design was made
+              entirely by me.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; During this project I demonstrated my ability to make cross platform applications that are responsive and functional. I used React Router to route between specific pages making the tranisitions virtually seamless.
+              &nbsp;&nbsp;&nbsp;&nbsp; During this project I demonstrated my
+              ability to make cross platform applications that are responsive
+              and functional. I used React Router to route between specific
+              pages making the tranisitions virtually seamless.
             </p>
           </div>
         </div>
@@ -135,29 +160,23 @@
         }
       </script>
     </div>
-    <div class="context">
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
-      </p>
-      <p class="paren">Site managed and hosted by me</p>
-    </div>
-    <div class="links">
-      <a
-        href="https://github.com/MichaelBaynon/shopbti-landing-page"
-        target="_blank"
-        >GitHub Code</a
-      >
-      <a href="https://shopbti.netlify.com/" target="_blank"
-        >Live Website</a
-      >
-    </div>
+    
 
     <!-- //////////////////////////////////////////////// -->
 
     <div class="collegeValue">
-      <a class="title_link" href="https://collegevalue.netlify.com/" target="_"
-        ><h2>College Value Predictor</h2></a
-      >
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://collegevalue.netlify.com/" target="_"
+          ><h2>College Value: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/College-Value/FrontEnd-college-value" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://collegevalue.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
+
 
       <a href="https://collegevalue.netlify.com/" target="_">
         <img class="mobileIMG" src="./imgs/collegeValue.png" width="700" />
@@ -165,7 +184,7 @@
       <center>
         <div class="dropdown">
           <button onclick="show_hide()" class="dropdown_button">
-            View Personal Contribution
+            Click to see how I contributed
           </button>
           <div style="display: none;" id="drop-content">
             <p>
@@ -175,9 +194,9 @@
               mistypes/errors are to be expected.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp; College Value was
-              built using React on the Front End and we connected to a Java Back
-              End made by one of my fellow colleagues.
+              &nbsp;&nbsp;&nbsp;&nbsp; College Value was built using React on
+              the Front End and we connected to a Java Back End made by one of
+              my fellow colleagues.
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp; I was personally responsible for the
@@ -200,29 +219,23 @@
         }
       </script>
     </div>
-    <div class="context">
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
-      </p>
-      <p class="paren">Site managed and hosted by me</p>
-    </div>
-    <div class="links">
-      <a
-        href="https://github.com/College-Value/FrontEnd-college-value"
-        target="_blank"
-        >GitHub Code</a
-      >
-      <a href="https://collegevalue.netlify.com/" target="_blank"
-        >Live Website</a
-      >
-    </div>
+    
 
     <!-- How to -------------------------------------------------------------------- -->
 
     <div class="howto">
-      <a class="title_link" href="https://howto-lsbw.netlify.com/" target="_"
-        ><h2>How To - life hacks</h2></a
-      >
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://howto-lsbw.netlify.com/" target="_"
+          ><h2>How To: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/bw-howto/backend" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://howto-lsbw.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
+
 
       <a href="https://howto-lsbw.netlify.com/" target="_">
         <img class="mobileIMG" src="./imgs/howto.png" width="700" />
@@ -231,7 +244,7 @@
       <center>
         <div class="dropdown">
           <button onclick="show_howto()" class="dropdown_button">
-            View Personal Contribution
+            Click to see how I contributed
           </button>
           <div style="display: none;" id="howto-content">
             <p>
@@ -261,24 +274,23 @@
         }
       </script>
     </div>
-    <div class="context">
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
-      </p>
-    </div>
-    <div class="links">
-      <a href="https://github.com/bw-howto/backend" target="_blank"
-        >GitHub Code</a
-      >
-      <a href="https://howto-lsbw.netlify.com/" target="_blank">Live Website</a>
-    </div>
+    
 
     <!-- GUIDR --------------------------------------------------------------------- -->
 
     <div class="guidr">
-      <a class="title_link" href="https://loveguidr.netlify.com/" target="_"
-        ><h2>Guidr - App for tour guides</h2></a
-      >
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://loveguidr.netlify.com/" target="_"
+          ><h2>GUIDR: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/Guidr-Bwproject/Front-End/tree/michael-baynon" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://loveguidr.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
+
 
       <a href="https://loveguidr.netlify.com/" target="_">
         <img class="mobileIMG" src="./imgs/guidr.jpg" width="700" />
@@ -287,7 +299,7 @@
       <center>
         <div class="dropdown">
           <button onclick="show_guidr()" class="dropdown_button">
-            View Personal Contribution
+            Click to see how I contributed
           </button>
           <div style="display: none;" id="guidr-content">
             <p>
@@ -327,21 +339,8 @@
         }
       </script>
     </div>
-    <div class="context">
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;<b> Code and site links available below:</b>
-      </p>
-      <p class="paren">Site managed and hosted by me</p>
-    </div>
-    <div class="links">
-      <a
-        href="https://github.com/Guidr-Bwproject/Front-End/tree/michael-baynon "
-        target="_"
-        >GitHub Code</a
-      >
-      <a href="https://loveguidr.netlify.com/" target="_">Live Website</a>
-    </div>
-    <div class="skills">
+    
+    <div class="skills" id=skills>
       <h3>Technical skills</h3>
       <ul>
         <li>HTML</li>
@@ -365,38 +364,14 @@
         <p>(including both hardware and software)</p>
       </ul>
     </div>
-    <div class="bio">
-      <h3>Personal Bio</h3>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;My code journey started with just a genuine
-        interest in computers and how they work. When I realized software
-        development was something I could do I never looked back. I did not want
-        to jump blind in so I did a lot of research like I mean A LOT.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;My initial plan was to be self taught. That
-        worked for a while and I learned a lot, working on my own was no
-        problem. Then I realized there is almost no way someone is not teaching
-        this and my time could be better spent just learning instead of having
-        to figure out what to learn.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;At this point I found a coding bootcamp called
-        Lambda School. Within a few days I was blown away with their track
-        record and signed up. I enrolled in the Full Stack Web Development
-        course and let me tell you. Never have I ever learned so much so fast. I
-        spent 5 days a week for months learning code, talking about code, and
-        essentially becoming a web developer.
-      </p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;Im glad I found Lambda. If it wasnt for Lambda I
-        may have never became a Full Stack Developer. Lambda taught me how to
-        work in team and communicate. They taught me version control and how to
-        learn from others. Throughout my Lambda journey I worked in my groups
-        both small and big. I also had a daily standup of what I achieved that
-        day and what we were to expect for the rest of the day. I beleive this
-        has prepared me for just about any workplace.
-      </p>
+    <div class="bio" id="aboutme">
+      <h3>About Me</h3>
+      <ul>
+        <li>I enjoy hiking, camping, and the outdoors</li>
+        <li>I am enthusiastic about problem solving and doing handy work</li>
+        <li>I enjoy building computers and other technology</li>
+        <li>I attended Lambda School straight out of high school</li>
+      </ul>
     </div>
     <div class="outro">
       <h3>Outro</h3>

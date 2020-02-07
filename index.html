@@ -51,6 +51,59 @@
       
     </div>
     <!-- /////////////////////////////////////////////// -->
+    <div class="guidr">
+      <div class="call-to-click-links">
+        <a class="title_link" href="https://mysterydog.netlify.com/" target="_"
+          ><h2>MYSTERY DOG: </h2></a
+        >
+        <div class="links-in-call-to-click">
+          <a href="https://github.com/MichaelBaynon/MysteryDogBackEndRedone" target="_blank"
+            >GitHub Code</a
+          >
+          <a href="https://mysterydog.netlify.com/" target="_blank">Live Website</a>
+        </div>
+      </div>
+
+
+      <a href="https://mysterydog.netlify.com/" target="_">
+        <img class="mobileIMG" src="./imgs/mysterydog.jpg" width="700" />
+      </a>
+
+      <center>
+        <div class="dropdown">
+          <button onclick="show_mysterydog()" class="dropdown_button">
+            Click to see how I contributed
+          </button>
+          <div style="display: none;" id="mysterydog-content">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; <b>Mystery Dog</b> is my most recent project and representation of my work.
+              This is a personal project that was made for my dog.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; Since this was a personal project I did everything completely on my own. So I have both a front end and a backend.
+              The Front End utilizes JavaScript, ReactJS, and CSS for the backend I used JavaScript again with NodeJS, express.js, knex.js, and SQL.
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp; My aim for this site was ease of use. I aimed to make a site that was both good looking and easy to navigate. At the time of
+              writing this the sites main features are the home page, register, login, and two pages both called "Inspiration" and "Creator". The "Dogs" page is still a work in progress but my end goal is a page where you can post, edit, comment on, and delete the different dog postings.
+            </p>
+          </div>
+        </div>
+      </center>
+      <script>
+        function show_mysterydog() {
+          var click = document.getElementById("mysterydog-content");
+          if (click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+        }
+      </script>
+    </div>
+    
+    <!-- /////////////////////////////////////////////// -->
+
     <div class="collegeValue" id=projects>
       <div class="call-to-click-links">
         <a class="title_link" href="https://ebcg.netlify.com/" target="_"

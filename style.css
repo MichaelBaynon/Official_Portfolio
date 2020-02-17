@@ -402,6 +402,34 @@ background: rgb(209, 209, 209);
 
 }
 
+#mysterydog-content p {
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+  }
+  
+  #mysterydog-content {
+   transition: .4s;
+  padding: 20px;
+  }
+
+#owavy-content p {
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+  }
+  
+  #owavy-content {
+   transition: .4s;
+  padding: 20px;
+  }
+
 #ebcg-content p {
   font-size: 16px;
   background: rgb(241, 241, 241);

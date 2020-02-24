@@ -1,42 +1,47 @@
 body {
   font-family: "Hepta Slab", serif;
+  margin: 0;
+  padding: 0%;
 }
 
 html {
   max-width: 100%;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
-  /* border-bottom: 1px solid lightgrey; */
-/* border-radius: 5px;
-  box-shadow: 0 0 3px grey; */
-  margin: 0px;
   
+  padding: 0;
+  background: rgb(42, 42, 46);
+justify-content: center;
+align-items: center;
   position: fixed;
- padding: 10px;
- display: flex;
- flex-direction: column;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+  width: 100%;
+  z-index: 99999;
 }
 
 .nav a {
   text-decoration: none;
-  margin: 28px 15px;
+margin: 0 40px;
   font-size: 1.1rem;
   color: white;
-  background: rgb(55, 132, 233);
-  border: 2px solid rgb(55, 132, 233);
+border-radius: 5px;
   padding: 5px 20px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px grey;
-  transition: .3s;
+
+  transition: 0.3s;
   display: flex;
   justify-content: center;
 }
 
 .nav a:hover {
-color: rgb(55, 132, 233);
-background: white;
+  color: rgb(30, 30, 32);
+  background: white;
 }
 
 .socials {
@@ -49,6 +54,10 @@ background: white;
   align-items: center;
   margin: 0px;
   padding: 0px;
+}
+
+.resume_link {
+  font-weight: bold;
 }
 
 .call-to-action1 {
@@ -65,16 +74,14 @@ background: white;
 }
 
 .call-to-click-links {
- 
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   max-width: 100%;
- z-index: 1;
-margin-top: 40px;
-border-top: 1px solid lightgrey;
-
+  z-index: 1;
+  margin-top: 40px;
+  border-top: 1px solid lightgrey;
 }
 
 .call-to-click-links a {
@@ -91,14 +98,13 @@ border-top: 1px solid lightgrey;
   text-decoration: none;
   border: 2px solid rgb(10, 103, 179);
   box-shadow: 1px 1px 3px grey;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .links-in-call-to-click a:hover {
-background: white;
-color: rgb(10, 103, 179);
+  background: white;
+  color: rgb(10, 103, 179);
 }
-
 
 .individual_social {
   margin: 0 20px;
@@ -106,7 +112,6 @@ color: rgb(10, 103, 179);
 }
 
 .individual_social:hover {
-  
   padding: 20px;
   border-radius: 5px;
   background: rgb(241, 241, 241);
@@ -114,12 +119,11 @@ color: rgb(10, 103, 179);
 
 .mailIMG {
   padding: -30px;
- 
 }
 
 .title_link {
   color: black;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .title_link h2 {
@@ -139,12 +143,14 @@ color: rgb(10, 103, 179);
   align-items: center;
   align-content: center;
   margin: 0 auto;
+  
 }
 
 .header a {
   text-decoration: none;
   color: black;
-  transition: .4s;
+  transition: 0.4s;
+  margin-top: 40px;
 }
 
 .header a:hover {
@@ -171,19 +177,18 @@ color: rgb(10, 103, 179);
   align-items: center;
   align-content: center;
   margin: 0 auto;
-
 }
 
 .callToAction a:hover {
   border: none;
-  transition: .3s;
+  transition: 0.3s;
   width: fit-content;
   border-radius: 100px;
 }
 
 .callToAction a:hover {
-border: none;
- margin-top: 20px;
+  border: none;
+  margin-top: 20px;
 }
 
 .collegeValue {
@@ -198,9 +203,9 @@ border: none;
 }
 
 .collegeValue img {
-    border: 1px solid grey;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px grey;
 }
 
 .callToAction h2 {
@@ -216,50 +221,47 @@ border: none;
 }
 
 .context {
-width: fit-content;
+  width: fit-content;
   margin: 0 auto;
   padding: 10px;
   font-size: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
- 
+
   align-items: center;
   align-content: center;
-  
 }
 
 .links {
- 
   width: 40%;
-    margin-top: 0px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-    border-bottom: 1px solid lightgrey;
+  margin-top: 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .links a {
-    color:black;
-    margin: 20px;
-    transition: .4s;
+  color: black;
+  margin: 20px;
+  transition: 0.4s;
 }
 
 .links a:hover {
-    color: rgb(30, 154, 255);
+  color: rgb(30, 154, 255);
 }
 
 .collegeValue h4 {
-    font-size: 25px;
-    margin-bottom: 0px;
+  font-size: 25px;
+  margin-bottom: 0px;
 }
 
 .paren {
-    font-size: 16px;
-    margin-top: 0px;
+  font-size: 16px;
+  margin-top: 0px;
 }
-
 
 /* guidr ----------------------------------------- */
 
@@ -276,7 +278,7 @@ width: fit-content;
 
 .guidr h4 {
   font-size: 25px;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .guidr img {
@@ -290,7 +292,7 @@ width: fit-content;
 }
 
 .guidr p {
-width: 35%;
+  width: 35%;
 }
 
 /*  howto ----------------------------------------- */
@@ -308,7 +310,7 @@ width: 35%;
 
 .howto h4 {
   font-size: 25px;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .howto img {
@@ -322,23 +324,23 @@ width: 35%;
 }
 
 .howto p {
-width: 35%;
+  width: 35%;
 }
 
 /* skills ------------------------------------ */
 
 .skills {
-
   width: fit-content;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   line-height: 1cm;
-border-bottom: 1px solid lightgrey;  
+  border-bottom: 1px solid lightgrey;
 }
 
 .skills h3 {
   font-size: 30px;
+  margin-top: 80px;
 }
 
 .skills p {
@@ -352,16 +354,16 @@ border-bottom: 1px solid lightgrey;
 }
 
 .bio {
-/* border: solid red; */
+  /* border: solid red; */
   width: 35%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   line-height: 1cm;
-border-bottom: 1px solid lightgrey; 
-justify-content: center; 
-align-items: center;
-align-content: center;
+  border-bottom: 1px solid lightgrey;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 /* outro -------------- */
@@ -372,10 +374,10 @@ align-content: center;
   display: flex;
   flex-direction: column;
   line-height: 1cm;
-border-bottom: 1px solid lightgrey; 
-justify-content: center; 
-align-items: center;
-align-content: center;
+  border-bottom: 1px solid lightgrey;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 /* dropdown -------------- */
@@ -392,14 +394,13 @@ align-content: center;
   border: 1px solid grey;
   box-shadow: 1px 1px 3px;
   background: rgb(241, 241, 241);
- transition: .4s;
+  transition: 0.4s;
   margin: 20px;
 }
 
 .dropdown_button:hover {
-cursor: pointer;
-background: rgb(209, 209, 209);
-
+  cursor: pointer;
+  background: rgb(209, 209, 209);
 }
 
 #mysterydog-content p {
@@ -407,69 +408,59 @@ background: rgb(209, 209, 209);
   background: rgb(241, 241, 241);
   padding: 20px;
   border-radius: 10px;
-  
-  
-  }
-  
-  #mysterydog-content {
-   transition: .4s;
+}
+
+#mysterydog-content {
+  transition: 0.4s;
   padding: 20px;
-  }
+}
 
 #owavy-content p {
   font-size: 16px;
   background: rgb(241, 241, 241);
   padding: 20px;
   border-radius: 10px;
-  
-  
-  }
-  
-  #owavy-content {
-   transition: .4s;
+}
+
+#owavy-content {
+  transition: 0.4s;
   padding: 20px;
-  }
+}
 
 #ebcg-content p {
   font-size: 16px;
   background: rgb(241, 241, 241);
   padding: 20px;
   border-radius: 10px;
-  
-  
-  }
-  
-  #ebcg-content {
-   transition: .4s;
+}
+
+#ebcg-content {
+  transition: 0.4s;
   padding: 20px;
-  }
+}
 
 #shopbti-content p {
   font-size: 16px;
   background: rgb(241, 241, 241);
   padding: 20px;
   border-radius: 10px;
-  
-  
-  }
-  
-  #shopbti-content {
-   transition: .4s;
+}
+
+#shopbti-content {
+  transition: 0.4s;
   padding: 20px;
-  }
+}
 
 #drop-content p {
-font-size: 16px;
-background: rgb(241, 241, 241);
-padding: 20px;
-border-radius: 10px;
-
-
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 #drop-content {
- transition: .4s;
-padding: 20px;
+  transition: 0.4s;
+  padding: 20px;
 }
 
 .dropdown_arrow {
@@ -481,13 +472,145 @@ padding: 20px;
   background: rgb(241, 241, 241);
   padding: 20px;
   border-radius: 10px;
-  
-  
-  }
-  
-  #howto-content {
-   transition: .4s;
+}
+
+#howto-content {
+  transition: 0.4s;
   padding: 20px;
+}
+
+#guidr-content p {
+  font-size: 16px;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#guidr-content {
+  transition: 0.4s;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1180px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  body {
+    max-width: 100%;
+  }
+  .callToAction h2 {
+    width: 60%;
+
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  body {
+    max-width: 100%;
+  }
+  .mobileIMG {
+    width: 600px;
+    border: solid red;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  body {
+    max-width: 100%;
+  }
+  .header h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  body {
+    max-width: 100%;
+  }
+  .mobileIMG {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    max-width: 100%;
+  }
+  .header h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    max-width: 100%;
+  }
+  .mobileIMG {
+    width: 400px;
+  }
+  .socials {
+    width: 30%;
+  }
+  .individual_social {
+    margin: 12px;
+  }
+  .socialIMG {
+    width: 80px;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .mobileIMG {
+    width: 300px;
+  }
+  .title_link h2 {
+    font-size: 15px;
+  }
+  .bio {
+    width: 70%;
+  }
+  .outro {
+    width: 70%;
+  }
+  .header p {
+    font-size: 18px;
+  }
+  #drop-content p {
+    font-size: 16px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+  }
+
+  #drop-content {
+    transition: 0.4s;
+    padding: 20px;
+    width: 90%;
+  }
+
+  #howto-content p {
+    font-size: 16px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+  }
+
+  #howto-content {
+    transition: 0.4s;
+    padding: 20px;
+    width: 90%;
   }
 
   #guidr-content p {
@@ -495,163 +618,12 @@ padding: 20px;
     background: rgb(241, 241, 241);
     padding: 20px;
     border-radius: 10px;
-    
-    
-    }
-    
-    #guidr-content {
-     transition: .4s;
+    width: 90%;
+  }
+
+  #guidr-content {
+    transition: 0.4s;
     padding: 20px;
-    }
-
-    @media screen and (max-width: 1180px) {
-      body {
-        max-width: 100%;
-      }
-    }
-
-    @media screen and (max-width: 799px) {
-      body {
-        max-width: 100%;
-      }
-      .callToAction h2 {
-        width: 60%;
-        
-        margin: 30px;
-      }
-    }
-
-    @media screen and (max-width: 756px) {
-      body {
-        max-width: 100%;
-      }
-     
-    }
-
-    @media screen and (max-width: 730px) {
-      body {
-        max-width: 100%;
-      }
-      .mobileIMG {
-        width: 600px;
-        border: solid red;
-      }
-    }
-
-    @media screen and (max-width: 665px) {
-      body {
-        max-width: 100%;
-      }
-      .header h1 {
-        
-        font-size: 60px;
-      }
-    }
-
-    @media screen and (max-width: 630px) {
-      body {
-        max-width: 100%;
-      }
-      .mobileIMG {
-        width: 500px;
-        
-      }
-    }
-
-    @media screen and (max-width: 580px) {
-      body {
-        max-width: 100%;
-      }
-      .header h1 {
-        
-        font-size: 50px;
-      }
-    }
-
-    @media screen and (max-width: 580px) {
-      body {
-        max-width: 100%;
-      }
-      .mobileIMG {
-        width: 400px;
-        
-      }
-      .socials {
-        width: 30%;
-      }
-      .individual_social {
-        margin: 12px;
-      }
-      .socialIMG {
-        width: 80px;
-      }
-      .header h1 {
-        
-        font-size: 30px;
-      }
-      .mobileIMG {
-        width: 300px;
-        
-      }
-      .title_link h2 {
-        font-size: 15px;
-      }
-      .bio {
-        width: 70%;
-      }
-      .outro {
-        width: 70%;
-      }
-      .header p {
-        font-size: 18px;
-      }
-      #drop-content p {
-        font-size: 16px;
-        background: rgb(241, 241, 241);
-        padding: 20px;
-        border-radius: 10px;
-        width: 90%;
-        
-        
-        }
-        
-        #drop-content {
-         transition: .4s;
-        padding: 20px;
-        width: 90%;
-        }
-        
-       
-        #howto-content p {
-          font-size: 16px;
-          background: rgb(241, 241, 241);
-          padding: 20px;
-          border-radius: 10px;
-          width: 90%;
-          
-          
-          }
-          
-          #howto-content {
-           transition: .4s;
-          padding: 20px;
-          width: 90%;
-          }
-        
-          #guidr-content p {
-            font-size: 16px;
-            background: rgb(241, 241, 241);
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            
-            
-            }
-            
-            #guidr-content {
-             transition: .4s;
-            padding: 20px;
-            width: 90%;
-            }
-      
-    }
+    width: 90%;
+  }
+}

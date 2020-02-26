@@ -2,6 +2,12 @@ body {
   font-family: "Hepta Slab", serif;
   margin: 0;
   padding: 0%;
+  /* background-image: url(/imgs/utahmountains.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black; */
+  
+
 }
 
 html {
@@ -10,6 +16,8 @@ html {
   margin: 0;
   padding: 0;
 }
+
+
 
 .nav {
   
@@ -31,9 +39,11 @@ align-items: center;
 margin: 0 40px;
   font-size: 1.1rem;
   color: white;
-border-radius: 5px;
+  border-top: 1px solid rgb(42, 42, 46);
+  border-left: 1px solid rgb(42, 42, 46);
+  border-right: 1px solid rgb(42, 42, 46);
   padding: 5px 20px;
-
+border-bottom: 1px solid rgb(42, 42, 46);
   transition: 0.3s;
   display: flex;
   justify-content: center;
@@ -41,7 +51,11 @@ border-radius: 5px;
 
 .nav a:hover {
   color: rgb(30, 30, 32);
-  background: white;
+  border-bottom: 1px solid rgb(51, 163, 255);
+  
+  
+  color: rgb(51, 163, 255);
+  
 }
 
 .socials {

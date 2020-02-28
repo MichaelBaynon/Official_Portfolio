@@ -25,10 +25,13 @@ text-decoration: none;
 color: black;
 }
 
+
+
 .nav {
   
   padding: 0;
-  background: rgb(10, 103, 179);
+  background: black;
+  box-shadow: 1px 1px 10px black;
 justify-content: center;
 align-items: center;
   position: fixed;
@@ -45,11 +48,9 @@ align-items: center;
 margin: 0 40px;
   font-size: 1.1rem;
   color: white;
-  border-top: 1px solid rgb(10, 103, 179);
-  border-left: 1px solid rgb(10, 103, 179);
-  border-right: 1px solid rgb(10, 103, 179);
+ 
   padding: 5px 20px;
-border-bottom: 1px solid rgb(10, 103, 179);
+border-bottom: 1px solid black;
   transition: 0.3s;
   display: flex;
   justify-content: center;
@@ -74,7 +75,9 @@ border-bottom: 1px solid rgb(10, 103, 179);
   align-items: center;
   margin: 0px;
   padding: 0px;
-  margin-top:200px;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  color: white;
 }
 
 .hover-social-text {
@@ -106,6 +109,7 @@ transition-duration: 0.4s;
 
 .resume_link {
   font-weight: bold;
+  color: white;
 }
 
 .call-to-action1 {
@@ -129,7 +133,7 @@ transition-duration: 0.4s;
   max-width: 100%;
   z-index: 1;
   margin-top: 40px;
-  border-top: 1px solid lightgrey;
+ 
 }
 
 .call-to-click-links a {
@@ -171,9 +175,9 @@ transition-duration: 0.4s;
   bottom: 0;
   left: 0;
   right: 0; */
-
+text-align: center;
  
-  color: black;
+  color: white;
   visibility: hidden;
   opacity: 0;
 border-radius: 5px;
@@ -182,7 +186,7 @@ border-radius: 5px;
 }
 
 .individual_social a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -208,6 +212,16 @@ border-radius: 5px;
   color: rgb(30, 154, 255);
 }
 
+.landing-area {
+  box-shadow: 1px 1px 15px black;
+  background-image: url(/imgs/cameralense.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
 .header {
   width: fit-content;
   display: flex;
@@ -217,12 +231,13 @@ border-radius: 5px;
   align-items: center;
   align-content: center;
   margin: 0 auto;
+ 
   
 }
 
 .name {
   text-decoration: none;
-  color: black;
+text-shadow: 1px 1px black;
   transition: 0.4s;
 height: fit-content;
   /* border: solid red; */
@@ -230,6 +245,7 @@ height: fit-content;
   padding-top: 100px;
   padding-bottom: 0;
   margin-bottom: 0;
+  color:white;
 }
 
 .header a:hover {
@@ -254,22 +270,29 @@ height: fit-content;
   align-content: center;
   margin: 0 auto;
   text-decoration: none;
+  
 }
 
 .callToAction a {
   text-decoration: none;
 }
 
-.callToAction a:hover {
+.downarrow {
+  text-decoration: none;
+}
+
+.downarrow:hover {
   border: none;
   transition: 0.3s;
   width: fit-content;
   border-radius: 100px;
+  
 }
 
-.callToAction a:hover {
+.downarrow:hover {
   border: none;
   margin-top: 20px;
+  
 }
 
 
@@ -293,6 +316,7 @@ height: fit-content;
 
 .callToAction h2 {
   font-size: 40px;
+  color: white;
 }
 
 .collegeValue h2 {
@@ -326,15 +350,7 @@ height: fit-content;
   border-bottom: 1px solid lightgrey;
 }
 
-.links a {
-  color: black;
-  margin: 20px;
-  transition: 0.4s;
-}
 
-.links a:hover {
-  color: rgb(30, 154, 255);
-}
 
 .collegeValue h4 {
   font-size: 25px;
@@ -419,6 +435,7 @@ height: fit-content;
   flex-direction: row;
   line-height: 1cm;
  
+ 
 
 }
 
@@ -447,12 +464,26 @@ height: fit-content;
 
 /* bio ---------------------------------- */
 
+.email {
+  padding: 10px;
+  color: rgb(30, 154, 255);
+  border-radius: 5px;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.email:hover {
+  background:rgb(30, 154, 255);
+  color: white;
+  text-decoration: none;
+}
+
 .bio h3 {
   font-size: 30px;
 }
 
 .bio {
-  /* border: solid red; */
+ border-top: 2px solid lightgrey;
   width: 35%;
   margin: 0 auto;
   display: flex;
@@ -500,6 +531,7 @@ height: fit-content;
   cursor: pointer;
   background: rgb(209, 209, 209);
 }
+
 
 #mysterydog-content p {
   font-size: 16px;
@@ -713,6 +745,7 @@ height: fit-content;
   .bio {
     width: 70%;
   }
+
   .outro {
     width: 70%;
   }

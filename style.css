@@ -483,13 +483,14 @@ height: fit-content;
 }
 
 .bio {
- border-top: 2px solid lightgrey;
+box-shadow: 1px 1px 5px grey;
+border-radius: 5px;
   width: 35%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   line-height: 1cm;
-  
+  text-align: center;
   justify-content: center;
   align-items: center;
   align-content: center;

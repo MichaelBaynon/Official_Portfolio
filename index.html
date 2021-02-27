@@ -138,6 +138,63 @@
 
       <div class="guidr">
         <div class="call-to-click-links">
+          <a
+            class="title_link"
+            href="https://bitcointracker.netlify.app/"
+            target="_"
+            ><h2>Bitcoin Tracker:</h2></a
+          >
+          <div class="links-in-call-to-click">
+            <a
+              href="https://github.com/MichaelBaynon/BitcoinPriceTracker"
+              target="_blank"
+              >GitHub Code</a
+            >
+            <a href="https://bitcointracker.netlify.app/" target="_blank"
+              >Live Website</a
+            >
+          </div>
+        </div>
+
+        <a href="https://bitcointracker.netlify.app/" target="_">
+          <img class="mobileIMG" src="./imgs/bitcoinSite.PNG" width="700" />
+        </a>
+
+        <center>
+          <div class="dropdown">
+            <button onclick="show_bitcoinsite()" class="dropdown_button">
+              ⬇️ Click to see how I contributed ⬇️
+            </button>
+            <div style="display: none;" id="bitcoin-content">
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp; <b>Bitcoin Tracker</b> is a site dedicated to the tracking of Bitcoin's current price.
+              </p>
+            
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;  Since freely avaible and accurate/up to data cypto price data sources are seemingly non existent. I had to simulate the constant changing of the price.
+                I did this by running two different functions updating the "price" with data received back from an API.
+                
+                On the other pages (on the site) I explain this further. I also have more in depth graphs and more info on other cyrptocurrencies. 
+              </p>
+            </div>
+          </div>
+        </center>
+        <script>
+          function show_bitcoinsite() {
+            var click = document.getElementById("bitcoin-content");
+            if (click.style.display === "none") {
+              click.style.display = "block";
+            } else {
+              click.style.display = "none";
+            }
+          }
+        </script>
+      </div>
+
+      <!--  -->
+
+      <div class="guidr">
+        <div class="call-to-click-links">
           <a class="title_link" href="https://owavy.netlify.com/" target="_"
             ><h2>oWavy's eSports Site:</h2></a
           >
